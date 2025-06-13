@@ -1,0 +1,106 @@
+/* 공용 스타일 작성 시작*/
+body{margin:0;
+background-color: ivory;}
+/* 공용 스타일 작성 끝*/
+
+/* Header 스타일 작성 시작*/
+.header{
+    background-color: navy;
+    height: 150px;
+}
+.header-1{
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-self: center;
+    align-items: end;
+}
+.header-2 {
+    border-radius: 5px;
+    display:flex;
+    justify-content: center;
+    padding: 30px;
+    margin: 30px;
+}
+
+.header-2 button{
+    border-radius: 5px;
+    background-color: gray;
+}
+/* Header 스타일 작성 끝*/
+
+/* 상품 스타일 작성 시작*/
+.container{
+    display:flex;
+}
+.menu{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-basis: 70%;
+    gap: 20px;
+    justify-content: flex-start;
+}
+.menu h3{
+    justify-self: center;
+}
+
+.product-card {
+    width: 220px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.product-card button{
+    width: 90%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.product-card h3 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.product-card img{
+    width: 200px;
+    height:250px;
+}
+
+.product-card h3{
+    overflow: hidden;
+}
+/* 상품 스타일 작성 끝*/
+
+/* 장바구니 스타일 작성 시작*/
+.cart{
+    flex-basis: 25%;
+    height: 900px;
+    border: 1px solid lightgray;
+    background-color: white;
+    display: block;
+    margin: 20px;
+}
+
+.cart p{
+    justify-self: center;
+}
+/* 장바구니 스타일 작성 끝*/
+
+/* 푸터 스타일 작성 시작*/
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1E40AF;
+    color: white;
+}
+/* 푸터 스타일 작성 끝*/
+
